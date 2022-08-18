@@ -1,6 +1,7 @@
 @use "../../global";
 
 footer {
+  display: flex;
   background-color: global.$primary-color;
   width: 1280px;
   height: 604px;
@@ -39,4 +40,101 @@ footer {
     height: 252px;
     font-weight: 400;
   }
+}
+
+.main-company-info {
+  width: 791px;
+  height: 470px;
+  border-bottom: 1px solid global.$white;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-evenly;
+  height: 204px;
+  padding-top: 56px;
+
+  h1 {
+    @extend %medium-two-font;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  p {
+    @extend %small-font;
+    color: global.$white;
+    font-weight: 400;
+  }
+
+  .fr-first-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 129px;
+    height: 80px;
+  }
+
+  .fr-second-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 165px;
+    height: 204px;
+  }
+
+  .fr-third-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 253px;
+    height: 170px;
+  }
+}
+
+.second-row {
+  display: flex;
+  align-items: center;
+  padding-top: 31px;
+  h1 {
+    @extend %medium-two-font;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+
+  .sr-first-column {
+    padding-left: 56px;
+  }
+
+  .sr-second-column {
+    padding-left: 178px;
+  }
+}
+
+.secondary-company-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 134px;
+}
+
+.company-number {
+  background-image: url(../../../../public/assets/icons/Phone.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-left: 23px;
+}
+
+.footer-company-business-info {
+  width: 791px;
+  height: 604px;
+}
+
+.legal-info {
+  width: 317px;
+  height: 54px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: global.$white;
 }

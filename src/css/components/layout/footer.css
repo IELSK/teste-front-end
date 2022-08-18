@@ -1,6 +1,11 @@
-.footer-company-personal-info .about-us-text {
+.footer-company-personal-info .about-us-text, .first-row p {
   font-size: 14px;
   line-height: 21px;
+}
+
+.first-row h1, .second-row h1 {
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .footer-company-personal-info h1 {
@@ -38,6 +43,7 @@ body p {
 }
 
 footer {
+  display: flex;
   background-color: #fbb900;
   width: 1280px;
   height: 604px;
@@ -70,4 +76,91 @@ footer {
   width: 339px;
   height: 252px;
   font-weight: 400;
+}
+
+.main-company-info {
+  width: 791px;
+  height: 470px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-evenly;
+  height: 204px;
+  padding-top: 56px;
+}
+.first-row h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.first-row p {
+  color: #ffffff;
+  font-weight: 400;
+}
+.first-row .fr-first-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 129px;
+  height: 80px;
+}
+.first-row .fr-second-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 165px;
+  height: 204px;
+}
+.first-row .fr-third-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 253px;
+  height: 170px;
+}
+
+.second-row {
+  display: flex;
+  align-items: center;
+  padding-top: 31px;
+}
+.second-row h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.second-row .sr-first-column {
+  padding-left: 56px;
+}
+.second-row .sr-second-column {
+  padding-left: 178px;
+}
+
+.secondary-company-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 134px;
+}
+
+.company-number {
+  background-image: url(../../../../public/assets/icons/Phone.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-left: 23px;
+}
+
+.footer-company-business-info {
+  width: 791px;
+  height: 604px;
+}
+
+.legal-info {
+  width: 317px;
+  height: 54px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
 }
