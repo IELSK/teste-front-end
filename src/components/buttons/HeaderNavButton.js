@@ -1,4 +1,4 @@
-import '../../css/components/buttons/headerNavButton.css'
+import "../../css/components/buttons/headerNavButton.css";
 
 const HeaderNavButton = (props) => {
   return (

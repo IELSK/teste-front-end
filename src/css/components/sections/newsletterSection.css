@@ -165,7 +165,8 @@ header button {
 .newsletter-section-container form .email-input {
   background-image: url(../../../../public/assets/icons/EnvelopeSimple.png);
 }
-.newsletter-section-container form input {
+.newsletter-section-container form .name-input,
+.newsletter-section-container form .email-input {
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: left 20px center;
@@ -174,6 +175,23 @@ header button {
 }
 .newsletter-section-container form button {
   margin-top: 32px;
+}
+.newsletter-section-container form ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  padding-left: 72px;
+  margin-left: 72px;
+}
+.newsletter-section-container form ::-moz-placeholder {
+  /* Firefox 19+ */
+  padding-left: 72px;
+}
+.newsletter-section-container form :-ms-input-placeholder {
+  /* IE 10+ */
+  padding-left: 40px;
+}
+.newsletter-section-container form :-moz-placeholder {
+  /* Firefox 18- */
+  padding-left: 72px;
 }
 
 .newsletter-container {
@@ -185,24 +203,4 @@ header button {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  padding-left: 72px;
-}
-
-::-moz-placeholder {
-  /* Firefox 19+ */
-  padding-left: 72px;
-}
-
-:-ms-input-placeholder {
-  /* IE 10+ */
-  padding-left: 72px;
-}
-
-:-moz-placeholder {
-  /* Firefox 18- */
-  padding-left: 72px;
 }

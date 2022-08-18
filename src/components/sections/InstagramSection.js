@@ -19,8 +19,8 @@ const InstagramSection = () => {
     <section className="instagram-section-container">
       <SectionTitle title="Instagram" customizedTitleButton="+Seguir" />
       <div className="instagram-images-container">
-          {mappedImages}
-          {mappedImages}
+        {mappedImages}
+        {mappedImages}
       </div>
     </section>
   );
