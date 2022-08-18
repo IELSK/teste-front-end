@@ -22,7 +22,11 @@ const Header = () => {
 
   const mappedMenuIcons = menuIcons.map((icon) => {
     return (
-      <HeaderIcon icon={icon.icon} iconDescription={icon.iconDescription} key={icon.id} />
+      <HeaderIcon
+        icon={icon.icon}
+        iconDescription={icon.iconDescription}
+        key={icon.id}
+      />
     );
   });
 

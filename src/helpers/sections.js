@@ -64,7 +64,19 @@ export const articlesList = [
 ];
 
 export const imagesSource = [
-  { imageSource: "EatingDog.png", imageDescription: "Cachorro comendo ração", id: "0" },
-  { imageSource: "TeddyDogTwo.png", imageDescription: "Cachorro com um bichinho de pelúcia", id: "1" },
-  { imageSource: "ChewingDog.png", imageDescription: "Cachorro mastigando", id: "2" },
+  {
+    imageSource: "EatingDog.png",
+    imageDescription: "Cachorro comendo ração",
+    id: "0",
+  },
+  {
+    imageSource: "TeddyDogTwo.png",
+    imageDescription: "Cachorro com um bichinho de pelúcia",
+    id: "1",
+  },
+  {
+    imageSource: "ChewingDog.png",
+    imageDescription: "Cachorro mastigando",
+    id: "2",
+  },
 ];

@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "build": "react-scripts build",
-    "gulp-build": "gulp"
+    "gulp-build": "gulp",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +40,7 @@
   },
   "devDependencies": {
     "gulp-sass": "^5.1.0",
+    "prettier": "^2.7.1",
     "sass": "^1.54.4"
   }
 }

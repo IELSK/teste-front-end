@@ -5,7 +5,7 @@ const DefaultModal = (props) => {
     const stringPrice = price.toString();
     const lengthPrice = stringPrice.length;
     const formattedPrice =
-    stringPrice.substring(0, lengthPrice - 2) +
+      stringPrice.substring(0, lengthPrice - 2) +
       "," +
       stringPrice.substring(lengthPrice - 2);
     return formattedPrice;

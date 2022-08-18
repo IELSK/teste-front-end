@@ -34,7 +34,11 @@ const HighlightsSection = () => {
           alt="Cachorro com boca aberta"
         />
       </div>
-      <img className="highlights-three-dots-icon" src="./assets/icons/GrayThreeDots.png" alt="Três pontos" />
+      <img
+        className="highlights-three-dots-icon"
+        src="./assets/icons/GrayThreeDots.png"
+        alt="Três pontos"
+      />
     </section>
   );
 };
